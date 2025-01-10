@@ -1,9 +1,6 @@
 package com.example.appacex
 
-import android.content.pm.PackageManager
-import android.content.pm.PackageManager.NameNotFoundException
 import android.os.Bundle
-import android.util.Base64
 import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -21,8 +18,6 @@ import com.microsoft.identity.client.exception.MsalClientException
 import com.microsoft.identity.client.exception.MsalException
 import com.microsoft.identity.client.exception.MsalServiceException
 import com.microsoft.identity.client.exception.MsalUiRequiredException
-import java.security.MessageDigest
-import java.security.NoSuchAlgorithmException
 
 class MainActivity : ComponentActivity() {
     private lateinit var msalApp: ISingleAccountPublicClientApplication
