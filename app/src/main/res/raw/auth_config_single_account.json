@@ -1,0 +1,14 @@
+{
+  "client_id" : "d4a98e2b-b367-48ff-bcf3-9e3fd6b37d47",
+  "authorization_user_agent" : "DEFAULT",
+  "redirect_uri" : "msauth://com.example.appacex/IZbaqYSwZPgebtCz%2FvjDsgJh02s%3D",
+  "account_mode" : "SINGLE",
+  "authorities" : [
+    {
+      "type": "AAD",
+      "audience": {
+        "type": "AzureADandPersonalMicrosoftAccount"
+      }
+    }
+  ]
+}
