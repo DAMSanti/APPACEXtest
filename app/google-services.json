@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "312191800375",
+    "project_id": "acexchat",
+    "storage_bucket": "acexchat.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312191800375:android:2c37efae2890d6cf099bb2",
+        "android_client_info": {
+          "package_name": "com.example.appacex"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDX1sH9LkJk0F_FAmgiGneA8jSFuyXnHaY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
