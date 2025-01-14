@@ -117,7 +117,7 @@ fun ChatView(
                         verticalAlignment = Alignment.CenterVertically,
                         modifier = Modifier
                             .background(Color(0xFFFFFFFF).copy(alpha = 0.5f), shape = RoundedCornerShape(8.dp))
-                            .padding(8.dp)
+                            .padding(8.dp).clickable { showProfessorDialog = true }
                     ) {
                         IconButton(onClick = { navController.navigateUp() }) {
                             Icon(
